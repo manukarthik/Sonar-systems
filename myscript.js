@@ -1,0 +1,3 @@
+$('#reference').carousel({
+  interval: false
+});

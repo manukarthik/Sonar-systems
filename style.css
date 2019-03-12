@@ -1,0 +1,256 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+body{
+	
+	font-family:"Times New Roman", Georgia, Serif;
+	font-weight:500;
+	position:relative;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: "Times-new-roman",sans-serif;
+	font-weight:100;
+	margin:0;
+}
+img {
+	max-width: 200px;
+}
+ .bs-example{
+      margin: 20px;
+      min-width: 300px;
+    }
+    .navbar-collapse{
+      font-size: 1.8em;
+    }
+.nav .navbar-nav li a {
+      color: #777;
+      border:5em solid 000;
+  }
+
+.carousel-inner img {
+      -webkit-filter: grayscale(0%);
+
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .navbar {
+      font-family:Quicksand;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 20px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+
+  }
+ .navbar li a, .navbar .navbar-brand {
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+
+    font-weight: :700px;
+   color:#E15D5F;
+   background:transparent;
+   border-bottom: 4px solid #EEC856;
+   text-shadow:none;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+.navbar-default .navbar-toggle {
+      border-color:#EEC856 ;
+  }
+
+@media only screen
+and (max-width: 768px){
+header .navbar-collapse{
+	background-color: rgba(0,0,0,0.5);
+}
+}
+video{
+width:100%
+}
+page{
+	padding:70px 0;
+
+}
+.page h2{
+	text-align:centre;
+	margin-bottom:30px;
+	padding-top:30px;
+	font-style: bold;
+	font-weight: 200;
+
+}
+/**  Page -- Staff **/
+
+#staff {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
+}
+
+.doctor {
+  margin: 0px 0;
+}
+.img-circle {
+    border-radius: 50%;
+    width:100px;
+}
+.doctor h4 {
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #6F4E36;
+  padding-bottom: 5px;
+}
+
+.doctor p {
+  font-size: 0.8em;
+}
+
+.doctor img {
+  width: 100%;
+}
+#mission{
+	background-image: #E4D29D;
+	background-image: linear-gradient(to bottom,#EEF08A, #819A2D);
+	border-top:20px solid rgba(238,200,86,0.5);
+	text-align: centre;
+  text-justify:inner-word;
+
+}
+.anv{
+  margin-left: 20px;
+
+}
+#sang{
+  font-family: "Slabo";
+  line-height: 10px;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+@media only screen
+and (min-width:450px)
+and(max-width: 768px){
+header .navbar-collapse{
+	.service p:0 20p%;
+	}
+	
+}
+}
+.page{
+	padding:0  20% 0 20%;
+}
+.page h1{
+	text-align: center;
+
+}
+.service{
+	margin:20px 0;
+	text-align:centre;
+}
+#services img.icon{
+	display: block;
+	width:200px;
+	margin:0 auto;
+	margin-bottom: 5px;
+
+}
+#sevices h3{
+	margin-bottom: 10px;
+}
+/**  Page -- Testimonials **/
+
+#testimonials {
+  padding: 0;
+}
+
+#testimonials h2 {
+  display: none;
+}
+
+#testimonials blockquote {
+  margin: 0;
+  padding: 0;
+  border-left: none;
+  min-height: 500px;
+  position: relative;
+}
+
+#testimonials blockquote .quote {
+  background-color: rgba(255,255,255,.6);
+  padding: 20px 5%;
+  position: absolute;
+  bottom: 0;
+  width: 75%;
+  font-weight: 400;
+  border-radius: 0 50px 0 0;
+}
+#im{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+     background-size: cover;
+}
+
+/**  Footer **/
+#u{
+   text-align: justify;
+    text-justify: inter-word;
+}
+footer {
+  background: #586D74;
+  color: white;
+  font-size: .8em;
+  padding: 20px 0 40px 0;
+}
+#h{
+  font-family:Quicksand;
+  font-size:48px;
+  font-weight:bold;
+  color:white;
+  text-shadow: 2px 2px 2px #aaa;
+  }
+
+footer a {
+  color: #E0E6AE;
+}
+
+footer a:hover {
+  color: #EEC856 !important;
+}
+
+footer .phone {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #E0E6AE;
+}
+
+footer .navbar {
+  margin-bottom: 0;
+  min-height: 0;
+}
+
+footer .navbar-default {
+  background-color: transparent;
+  border: none;
+  margin-right: 40px;
+}
+
+footer .navbar-nav>li a {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-decoration: underline;
+  color: #EEC856 !important;
+}
+p{
+  line-height: 10px;
+}

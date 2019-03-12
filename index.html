@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Sonar Systems</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+ <link rel="stylesheet" href="style.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+ @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+    #img{
+     margin-bottom: 10px;
+  }
+  #t{
+   font-family: Arial,sans-serif;
+   font-size: 24px;
+   font-style: italic;
+   margin-left: 95px;
+   padding-top: 0px;
+   position: relative;
+
+  }
+  #h{
+
+    font-family:Arial,sans-serif;  
+    font-size:50px;
+    font-weight:bold;
+    color:white;
+    text-shadow: 2px 2px 2px  #3333ff;
+    margin-left: 0;
+ }
+ h1,h2,h3,h4{
+  font-family: "Arial";
+
+}
+.carousel-inner img {
+   -webkit-filter: grayscale(0%);
+
+   width: 100%;
+   height:auto; /* Set width to 100% */
+   margin: auto;
+}
+}
+.carousel-caption h3 {
+   color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+   display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+}
+}
+#sang{font-family: "Arial";
+line-height: 30px;
+letter-spacing: 2px;
+font-size: 1.5em;
+text-justify:inner-word;
+}
+#sang1{font-family: "Arial";
+line-height:30px;
+letter-spacing: 2px;
+font-size: 1.5em;
+text-justify:inner-word;
+}
+.navbar li a, .navbar .navbar-brand {
+   font-family: "Arial";
+   font-size: 0.5em;
+   color:black;
+}
+.navbar-nav li a:hover {
+  font-family: "Arial"
+  font-size: 1.2em
+  font-weight: :1em;
+  color: #2d2d30;
+  background:transparent;
+  margin-top: 4px;
+  border-bottom: 4px solid #EEC856;
+  text-shadow:none;
+}
+.navbar-nav li a{
+  color:black;
+
+}
+.navbar-nav li.active a {
+   color: #fff !important;
+   background-color: #29292c !important;
+}
+.navbar {
+
+   margin: 0px;
+   background-color:  #2d2d30;
+   border: 0px solid white;
+   font-size: 25px !important;
+   letter-spacing: 4px;
+   opacity: 1;
+
+}
+#foo{
+  font-family: "Arial";
+  font-size: :5px;
+}
+.embed-responsive {
+ position: relative;
+ display: block;
+ height: 0;
+ padding: 0;
+ overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border: 0;
+}
+.embed-responsive-16by9 {
+ padding-bottom: 56.25%;
+}
+.embed-responsive-4by3 {
+ padding-bottom: 75%;
+}
+ .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+   page{
+   padding:70px 0;
+
+}
+#con{
+   font-size: 1.8em;
+   font-family: "Arial";
+}
+#page1{
+   background: linear-gradient(to right, white, grey);
+}
+</style>
+</head>
+
+<body>
+
+   <header>
+     <div class="bs-example">
+        <nav role="navigation" class="navbar navbar-default">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+           </button>
+
+           <h1 id="h"><span><img src="images/S Logo.jpg" id="img" width="80px" height="80px"></span> SONAR SYSTEMS<p id="t">Making people's life better.</p></h1>
+        </div>
+        <!-- Collection of nav links and other content for toggling -->
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+         <ul class="nav navbar-nav navbar-right">
+           <li class="active"><a href="#">Home</a></li>
+           <li><a href="#miss">Voice Commands</a></li>
+            <li><a href="#services">Services</a></li>
+           <li><a href="#page1">Testimonials</a></li>
+ <li><a href="#contact">Contact Us</a></li>
+
+           
+        </ul>
+
+
+     </div>
+  </nav>
+</div>
+  <!--<div class="carousel slide hidden-xs" id="reference" >
+    <ol class="carousel-indicators">
+       <li data-target="#reference" data-slide-to="0" class="active"></li>
+       <li data-target="#reference" data-slide-to="1"></li>
+       <li data-target="#reference" data-slide-to="2"></li>
+
+    </ol>
+     <div class="carousel-inner">
+      <div class="item">
+        
+      <img src="images/carousel-lifestyle.jpg" alt="Mission">
+     </div>
+     <div class="item">
+      <img src="images/carousel-mission.jpg" alt="Mission">
+     </div>
+     
+     <div class="item">
+      <img src="images/carousel-stateoft.jpg" alt="Vaccinations">
+     </div>
+     <div class="item active">
+      <img src="images/ice.jpg" alt="Vaccinations">
+     </div>
+  </div><!--carousal inne-->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+     <!-- Indicators -->
+     <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" ></li>
+      <li data-target="#myCarousel" data-slide-to="1" ></li>
+      <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+   </ol>
+
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner" role="listbox">
+      <div class="item active">
+       <img src="images/maps.jpg" alt="" width="1200" height="700">
+
+    </div>
+
+    <div class="item">
+       <img src="images/maps1.jpg" alt="" width="1200" height="700">
+
+    </div>
+
+    <div class="item">
+       <img src="images/maps2.jpg" alt="" width="1200" height="700">
+
+    </div>
+
+ </div>
+
+ <!-- Left and right controls -->
+
+
+ 
+</div>
+
+</header>
+
+
+<div class="main">
+ <div class="page" id="miss">
+  <div class="content container">
+   <h2>Our Mission</h2>      
+   <p id="sang" style="text-align:justify" class="col-sm-12"> sonar sytems we develop the world's most advanced, affordable, and easy-to-use personal vehicle tracking products. 
+
+      GPS Systems save your business time, money, and helps you manage your important assets.  This helps businesses increase efficiency and decrease extraneous costs such as extra fuel or idle time. 
+      ABC designs sell and manufacture our GPS tracking devices. We are one of the few companies that can handle special orders for customized GPS hardware for the end user. 
+
+      We have supplied GPS tracking for the private sector as well as the government agencies alike. Our goal is to provide a tool so users can maximize fleet performance while reducing cost.</p></div>
+<div>
+    </div>
+  </p><br>
+</div><!-- content container -->
+</div><hr><!-- mission page -->
+<div class="content container">
+ <div class="row">
+ <h2>So how do voice commands work..?</h2><br>
+  <div class="col-sm-12">
+
+   <div class="embed-responsive embed-responsive-16by9" >
+      <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/FnHfxjuxkS0"></iframe>
+   </div>
+</div>
+</div>
+</div>
+<br><br>
+<!-- services page -->
+
+
+<div class="page" id="staff">    
+   <div class="row">
+      <div class="container-fluid text-center"><br>
+         <h1>Founders</h1>
+
+         <div class="doctor col-lg-3">
+           <div class="row">
+
+             <figure>
+
+               <img class=" img-circle anv" src="images/anve.jpg" />
+               <figcaption><h2>Anvesh</h2></figcaption>
+            </figure>
+
+
+         </div>
+      </div>
+      <div class="doctor col-lg-3">
+        <div class="row">
+
+
+          <figure>
+            <img class=" img-circle" src="images/p2.jpg" />
+            <figcaption><h2>Manukarthik</h2></figcaption>
+         </figure>
+
+
+      </div>
+   </div>
+   <div class="doctor col-lg-3">
+     <div class="row">
+
+       <figure>
+         <img class=" img-circle" src="images/soumya.jpg" />
+         <figcaption><h2>Soumya</h2></figcaption>
+      </figure>
+
+   </div>
+
+</div>
+<div class="doctor col-lg-3">
+ <div class="row">
+
+    <figure>
+       <figure>
+         <img class=" img-circle" src="images/pav.jpg" />
+         <figcaption><h2>Pavan</h2></figcaption>
+      </figure>
+
+   </div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="main">
+ <div class="page" id="page1">
+  <div class="content container"><br><br>
+      <h1> Why sonar systems.?<h1><br><br>
+
+   
+   <p id="sang1" style="text-align:justify" class="col-sm-6 col-lg-12">
+      <p><h1>Quality</h1></p><br>
+      <p id="sang1" style="text-align:justify">
+         Under strict quality control, our products are undoubtedly made to meet your demands of high quality. Nevertheless, to guarantee you the quality of every product from us, our products all carry a one-year warranty. Products with defects from workmanship or materials can be returned for replacement or repair.
+      </p><hr>
+      <p><h1>Compatibility</h1></p><br>
+      <p id="sang1"  style="text-align:justify">
+         In our opinion, compatibility is a key point in GPS applications, And that's why we make our products universally compatible. Products from our work well with a variety of prevailing GPS products on the market and can be easily integrated with your existing equipment.
+      </p><hr>
+      <p><h1>Customer-Orientation</h1></p><br>
+      <p id="sang1"  style="text-align:justify">
+         Any OEM & ODM mass-production projects are highly welcomed at sonar systems. We open the product design at the decision of the customer while in the meantime offer excellent quality and competitive price ever achieved.
+         For the years to come, we're marching with profound confidence -- the confidence that our strenuous efforts in the development and production of quality GPS products will be definitely better and enrich your life!
+
+      </p><hr>
+<p><h1>Our Team</h1></p>
+   <div class="embed-responsive embed-responsive-16by9" >
+      <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/arJLzDs4ydA"></iframe>
+   </div>
+
+   </div>
+</div><!-- content container -->
+</div><!-- mission page -->
+
+
+
+
+
+
+</div>
+
+</div><!-- main -->
+<!--
+<footer>
+ <div class="content container" id="foo">
+  <div>Call us toll-free at &nbsp<span class="phone">2172208908</span></div>
+  <nav>
+   <ul>
+    <li><a href="#">Terms of use</a></li>
+    <li><a href="#">Privacy policy</a></li>
+ </ul>
+</nav>
+<p id="foo">All contents &copy; 2014 <a href="#">Sonar systems all rights reserved.</a></p>  
+</div><!-- content container -->
+</footer>-->
+<div id="contact" class="container">
+  <h1 class="text-center">Contact</h1><br><br>
+  
+
+  <div class="row">
+    <div class="col-md-4">
+     
+      <p id="con"><span class="glyphicon glyphicon-map-marker"></span>Sprinfield, US</p>
+      <p id="con"><span class="glyphicon glyphicon-phone"></span>Phone: +12172208908</p>
+      <p id="con"><span class="glyphicon glyphicon-envelope"></span>Email: www.uis.edu</p>
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="myscript.js"></script>
+</body>
+</html>
